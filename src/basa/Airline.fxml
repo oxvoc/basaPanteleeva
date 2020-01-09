@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basa.AirlineController">
+   <children>
+      <Label layoutX="242.0" layoutY="38.0" text="Airline">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="83.0" text="Country">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="129.0" text="City">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: burlywood;" text="Back" />
+      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Exit" />
+      <TextArea layoutX="94.0" layoutY="169.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextField layoutX="369.0" layoutY="83.0" />
+      <TextField layoutX="145.0" layoutY="129.0" />
+      <Button layoutX="340.0" layoutY="188.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="340.0" layoutY="244.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="340.0" layoutY="310.0" mnemonicParsing="false" text="Result table" />
+      <Label layoutX="77.0" layoutY="83.0" text="AirID">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="145.0" layoutY="83.0" />
+   </children>
+</AnchorPane>

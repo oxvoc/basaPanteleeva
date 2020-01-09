@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lavender;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="basa.ReservationController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: burlywood;" text="Back" />
+      <Button layoutX="528.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Exit" />
+      <Label layoutX="115.0" layoutY="69.0" text="Row">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="103.0" text="Place">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="151.0" text="Date">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="129.0" layoutY="216.0" prefHeight="159.0" prefWidth="350.0" />
+      <TextField layoutX="180.0" layoutY="65.0" />
+      <TextField layoutX="180.0" layoutY="103.0" />
+      <TextField layoutX="180.0" layoutY="151.0" />
+      <Button layoutX="502.0" layoutY="216.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="502.0" layoutY="264.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="502.0" layoutY="319.0" mnemonicParsing="false" text="Result table" />
+      <Label layoutX="254.0" layoutY="13.0" text="Reservation">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

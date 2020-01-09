@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basa.FXMLDocumentController">
+    <children>
+      <TextField layoutX="86.0" layoutY="63.0" promptText="login" style="-fx-background-color: gray;" />
+      <TextField layoutX="86.0" layoutY="109.0" promptText="password" style="-fx-background-color: gray;" />
+      <Button layoutX="138.0" layoutY="161.0" mnemonicParsing="false" text="Enter" />
+      <TextField layoutX="73.0" layoutY="14.0" style="-fx-background-color: empty; -fx-font-size: 20;" text="Enter the system" />
+    </children>
+</AnchorPane>

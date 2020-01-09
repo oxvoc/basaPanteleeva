@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lavender;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basa.CustomerController">
+   <children>
+      <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: burlywood;" text="Back" />
+      <Button layoutX="534.0" layoutY="22.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Exit" />
+      <Label layoutX="252.0" layoutY="26.0" text="Customer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="104.0" text="ClientID" />
+      <Label layoutX="74.0" layoutY="137.0" text="FIO" />
+      <Label layoutX="74.0" layoutY="173.0" text="Luggage" />
+      <TextField layoutX="131.0" layoutY="100.0" />
+      <TextField layoutX="117.0" layoutY="142.0" />
+      <TextField layoutX="131.0" layoutY="188.0" />
+      <TextArea layoutX="347.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="347.0" layoutY="297.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="414.0" layoutY="297.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="482.0" layoutY="297.0" mnemonicParsing="false" text="Result table" />
+   </children>
+</AnchorPane>
